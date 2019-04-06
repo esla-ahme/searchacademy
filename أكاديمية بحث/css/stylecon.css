@@ -1,0 +1,120 @@
+.contactus{
+width: 100%;
+background-image: url('../img/research.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+z-index: -2;
+padding: 50px;
+
+}
+.contact{
+  background: rgba(255,255,255,0.9);
+  border-radius: 25px;
+}
+.contform{
+  padding: 25px;
+}
+.contform p {width: 80%;}
+.contactus h1 {
+  font-weight: 600;
+  color: #f5a022;
+
+}
+.contimg{
+  float: left;
+  background: rgba(0, 0, 0, 0.05);
+  transform: skewX(-5deg);
+}
+.contimg img{
+  max-width: 530px;
+  float: left;
+transform: skewX(5deg);
+
+}
+
+input{
+    padding:0 20px;
+    margin-bottom: 20px;
+    width: 80%;
+
+
+}
+input[type="text"],input[type="email"], input[type="phone"],select,textarea{
+
+    border: none;
+    border-bottom: 2px solid #f5a022;
+    background: transparent;
+    outline: none;
+    color: #000;
+    height:40px;
+    line-height:100%;
+    font-size: 18px;le: normal;
+    font-weight: normal;
+    border-radius: 0px
+}
+input[type="checkbox"]{
+  width: 20px;
+  margin-left: 20px;
+
+}
+textarea{      width: 80%;
+  height: 120px;
+}
+
+input[type="submit"]
+{
+ display:block;
+  clear:none;
+  margin:auto;
+  margin-top:10px;
+  width:50%;
+    border: none;
+    outline: none;
+    height: 35px;
+border-radius: 20px;
+    background: #f5a022;
+font-size: 18px;
+font-weight: bold;
+color: #000;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background:#000;
+color: #f5a022;
+
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #444;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #444;
+}
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+input:focus::-moz-input-placeholder {
+    color: transparent;
+}
+
+.twitter{
+  max-width: 780px;
+  height:600px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom:  50px;
+
+  overflow: scroll;
+}
+
+
+@media screen and (max-width: 1080px) {
+  .contimg img{
+    max-width: 320px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contimg img{
+display: none }
+}
